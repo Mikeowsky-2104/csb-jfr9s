@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Simple Javascript Clicker</title>
+  </head>
+  <body>
+    <h1>
+      Simple Javascript Clicker
+    </h1>
+    <h3>
+      To play all you have to do is press the button. Have Fun!<br />
+      _______________________________________________________
+    </h3>
+    <h3>Your Balance is :</h3>
+    <h3 id="demo"></h3>
+    <button onclick="myFunction()">
+      Press Me!
+    </button>
+
+    <script>
+      var money = 0;
+
+      function myFunction() {
+        money++;
+        console.log("Your Balance is:" + money);
+        document.getElementById("demo").innerHTML = money;
+      }
+    </script>
+  </body>
+</html>

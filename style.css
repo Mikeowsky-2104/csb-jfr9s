@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+body {
+  text-align: center;
+  background-color: lightblue;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+button {
+  font-family: "Mochiy Pop P One", sans-serif;
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+  border-width: 0px;
+}
